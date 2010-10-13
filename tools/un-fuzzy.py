@@ -24,7 +24,7 @@
 #
 # Example usage:
 #
-#  un-fuzzy.py  8x8-glyphs.png  /tmp/4x8-glyphs.tga
+#  tools/un-fuzzy.py  fonts/pre-4x8-font.png  /tmp/un-fuzzy-4x8-font.tga
 #
 # Then use GIMP to convert the .tga file to a .pnm file.  Imagemagick seems to
 # create P3 .pnm files yet setfont2 can only load P6 .pnm files presently.
