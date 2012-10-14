@@ -1,0 +1,14 @@
+This is a 6x10 console font.
+It allows for 53x24 terminal size on Ben Nanonote.
+This a fork of 6x11 regular (i.e. colored) kernel font.
+
+This font doesn't use setfont2 (i.e. SubLCD technique),
+so it looks worse than setfont2 font.
+From the other hand side, it provides colors,
+which might be important in some applications.
+
+This font and conversion tools (png2font and font2png)
+are in setfont2 repo because they fit with setfont2's purpose:
+Provide better looking console fonts for Ben Nanonote.
+
+Credits go to mth.
